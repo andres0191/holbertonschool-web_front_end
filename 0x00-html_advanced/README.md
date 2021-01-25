@@ -11,74 +11,73 @@ HTML (Hypertext Markup Language) is the most basic component of the Web. Define 
 HTML uses "markup" to tag text, images, and other content for display in a web browser. HTML markup includes special "elements" such as `<head>, <title>, <body>, <header>, <footer>, <article>, <section>, <p>, <div>, <span>, < img>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <nav>, <output>, <progress>, <video>, <ul>, <ol> , <li>` and many others.
 
 Tags more used:
-* `<!DOCTYPE html>`: Tipo de documento que se muestra. Puede ser HTML o XML
-* `<html>`: Envuelve todo el documento
-* `<head>`: Cabecera del documento. Contiene sub etquietas.
-* `<meta>`: Documentar metadatos que no se pueden representar con etiquetas. Contienen la informacion respecto a la descripcion de la pagina.
-* `<body>`: El cuerpo de la estructura HTML.
-* `<header>`: Navegacion o elementos introductorios para la seccion actual.
-* `<nav>`: Enlaces de navegacion.
-* `<article>`: Seccion del contenido de la pagina.
-* `<section>`: Contiene elementos agrupados por tema.
-* `<aside>`:Solo esta relacionado con el contenido principal.
-* `<footer>`:Pie de pagina.
-* `<ol>`: Lista ordenada.
-* `<ul>`: Lista desordenada.
-* `<li>`: Valor de las listas, tanto ordenadas como desordenadas.
-* `<table>`: Tabla de contenidos.
-* `<caption>`: Titulo de la tabla.
-* `<col>`: Propiedad para cada columna dentro de un elemento `<colgroup>`.
-* `<colgroup>`: Grupo de columnas en una tabla.
-* `<tbody>`: Agrupa el contendio del cuerpo de la tabla. Se usa en conjunto con `<thead>` y `<tfoot>`.
-* `<thead>`: Conjunto de filas que definen el encabezado de la tabla.
-* `<tfoot>`: Conjunto de filas que resumen la columna de la tabla.
-* `<td>`: Define celdas de datos en filas. Va dentro de un `<tr>`.
-* `<tr>`: Contiene uno o mas elementos `<th>` o `<td>`.
-* `<th>`: Define celdas de encabezado, tiene scope, que define filas o columnas.
-* `<dl>`: Descripcion de la lista
-* `<dt>`: Nombre de la tabla
-* `<dd>`: Valor de la tabla
-* `<q>`: Define una breve cita
-* `<bloquote>`: Se usa para citar de otra fuente.
-* `<p>`: Etiqueta de parrafo.
-* `<a>`: ancla. Permite generar enlaces a otras partes del citio web o enlaces externos.
-* `<img>`: Etiqueta para insertar imagenes.
-* `<h1> - <h6>`: Etiqueta de titulos, siento `<h1>` el de mayor valor.
-* `<small>`: Apariencia de texto reducida.
-* `<strong>`: Negrita
-* `<b>`: Negrita
-* `<hr>`: separador horizontal.
-* `<figure>`: Contexto semantico para imagenes.
-* `<action>`: Es el atributo principal de un formulario. Es la ruta a donde se va a enviar la informacion.
-* `<input>`: Entrada de tados. Esta puede ser:
-    * button
-    * checkbox
-    * color
-    * date
-    * email
-    * file
-    * hidden
-    * image
-    * month
-    * nuimber
-    * password
-    * radio
-    * range
-    * reset
-    * search
-    * submit
-    * tel
-    * text
-    * time
-    * url
-    * week
-* `<label>`: Titulo para la etiqueta `<input>`
-* `<button>`: boton
-* `<div>`: Etiqueta sin valor semantico. Agrupa elementos en bloque.
-* `<spam>`: Etiqueta sin valor semantico. Agrupa contendios en una linea.`
+* `<! DOCTYPE html>`: Type of document displayed. It can be HTML or XML
+* `<html>`: Wrap the entire document
+* `<head>`: Document header. Contains sub labels.
+* `<meta>`: Document metadata that cannot be represented with tags. They contain the information regarding the description of the page.
+* `<body>`: The body of the HTML structure.
+* `<header>`: Navigation or introductory elements for the current section.
+* `<nav>`: Navigation links.
+* `<article>`: Section of the content of the page.
+* `<section>`: Contains elements grouped by topic.
+* `<aside>`: It is only related to the main content.
+* `<footer>`: Footer.
+* `<ol>`: Ordered list.
+* `<ul>`: Unordered list.
+* `<li>`: Value of the lists, both ordered and unordered.
+* `<table>`: Table of contents.
+* `<caption>`: Title of the table.
+* `<col>`: Property for each column within a `<colgroup>` element.
+* `<colgroup>`: Group of columns in a table.
+* `<tbody>`: Groups the content of the body of the table. Used in conjunction with `<thead>` and `<tfoot>`.
+* `<thead>`: Set of rows that define the table header.
+* `<tfoot>`: Set of rows that summarize the table column.
+* `<td>`: Define data cells in rows. It goes inside a `<tr>`.
+* `<tr>`: Contains one or more `<th>` or `<td>` elements.
+* `<th>`: Defines header cells, has scope, which defines rows or columns.
+* `<dl>`: List description
+* `<dt>`: Name of the table
+* `<dd>`: Table value
+* `<q>`: Define a short appointment
+* `<bloquote>`: Used to quote from another source.
+* `<p>`: Paragraph label.
+* `<a>`: anchor. Allows you to generate links to other parts of the website or external links.
+* `<img>`: Label to insert images.
+* `<h1> - <h6>`: Title tag, I feel `<h1>` the one with the highest value.
+* `<small>`: Reduced text appearance.
+* `<strong>`: Bold
+* `<b>`: Bold
+* `<hr>`: horizontal separator.
+* `<figure>`: Semantic context for images.
+* `<action>`: It is the main attribute of a form. It is the route where the information will be sent.
+* `<input>`: Data input. This can be:
+     * button
+     * check box
+     * Colour
+     * date
+     * email
+     * file
+     * hidden
+     * image
+     * month
+     * nuimber
+     * password
+     * radio
+     * range
+     * reset
+     * search
+     * submit
+     * tel
+     * text
+     * time
+     * url
+     * week
+* `<label>`: Title for the `<input>` tag
+* `<button>`: button
+* `<div>`: Label without semantic value. Group items together.
+* `<spam>`: Label without semantic value. Group content in one line.
 
-
-Los ejercicios realizados en este repositorio fueron los siguientes:
+The exercises carried out in this repository were the following:
 
 * [0. Create your first webpage](https://github.com/andres0191/holbertonschool-web_front_end/blob/master/0x00-html_advanced/0-index.html)
 * [1. Structure your webpage ](https://github.com/andres0191/holbertonschool-web_front_end/blob/master/0x00-html_advanced/1-index.html)
@@ -126,7 +125,7 @@ Los ejercicios realizados en este repositorio fueron los siguientes:
 * [40. Add a iframe example in the styleguide](https://github.com/andres0191/holbertonschool-web_front_end/blob/master/0x00-html_advanced/styleguide.html)
 
 
-Con el desarrollo de esta serie de ejercicios se cumplieron los siguientes objetivos:
+With the development of this series of exercises, the following objectives were met:
 
 1. Which guidelines to follow for HTML
 2. How to create the skeleton of an HTML5 page
