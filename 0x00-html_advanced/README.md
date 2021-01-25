@@ -8,9 +8,9 @@ HTML (Hypertext Markup Language) is the most basic component of the Web. Define 
 
 "Hypertext" refers to the links that connect web pages to each other, either within a single web site or between web sites. Links are a fundamental aspect of the Web. By uploading content to the Internet and linking it to pages created by other people, you become an active participant in the "World Wide Web".
 
-HTML uses "markup" to tag text, images, and other content for display in a web browser. HTML markup includes special "elements" such as <head>, <title>, <body>, <header>, <footer>, <article>, <section>, <p>, <div>, <span>, < img>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <nav>, <output>, <progress>, <video>, <ul>, <ol> , <li> and many others.
+HTML uses "markup" to tag text, images, and other content for display in a web browser. HTML markup includes special "elements" such as `<head>, <title>, <body>, <header>, <footer>, <article>, <section>, <p>, <div>, <span>, < img>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <nav>, <output>, <progress>, <video>, <ul>, <ol> , <li>` and many others.
 
-Tags more used:
+Tags more used:`
 * <!DOCTYPE html>: Tipo de documento que se muestra. Puede ser HTML o XML
 * <html>: Envuelve todo el documento
 * <head>: Cabecera del documento. Contiene sub etquietas.
@@ -75,7 +75,7 @@ Tags more used:
 * <label>: Titulo para la etiqueta <input>
 * <button>: boton
 * <div>: Etiqueta sin valor semantico. Agrupa elementos en bloque.
-* <spam>: Etiqueta sin valor semantico. Agrupa contendios en una linea.
+* <spam>: Etiqueta sin valor semantico. Agrupa contendios en una linea.`
 
 
 Los ejercicios realizados en este repositorio fueron los siguientes:
