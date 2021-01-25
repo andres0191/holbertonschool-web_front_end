@@ -10,47 +10,47 @@ HTML (Hypertext Markup Language) is the most basic component of the Web. Define 
 
 HTML uses "markup" to tag text, images, and other content for display in a web browser. HTML markup includes special "elements" such as `<head>, <title>, <body>, <header>, <footer>, <article>, <section>, <p>, <div>, <span>, < img>, <aside>, <audio>, <canvas>, <datalist>, <details>, <embed>, <nav>, <output>, <progress>, <video>, <ul>, <ol> , <li>` and many others.
 
-Tags more used:`
-* <!DOCTYPE html>: Tipo de documento que se muestra. Puede ser HTML o XML
-* <html>: Envuelve todo el documento
-* <head>: Cabecera del documento. Contiene sub etquietas.
-* <meta>: Documentar metadatos que no se pueden representar con etiquetas. Contienen la informacion respecto a la descripcion de la pagina.
-* <body>: El cuerpo de la estructura HTML.
-* <header>: Navegacion o elementos introductorios para la seccion actual.
-* <nav>: Enlaces de navegacion.
-* <article>: Seccion del contenido de la pagina.
-* <section>: Contiene elementos agrupados por tema.
-* <aside>:Solo esta relacionado con el contenido principal.
-* <footer>:Pie de pagina.
-* <ol>: Lista ordenada.
-* <ul>: Lista desordenada.
-* <li>: Valor de las listas, tanto ordenadas como desordenadas.
-* <table>: Tabla de contenidos.
-* <caption>: Titulo de la tabla.
-* <col>: Propiedad para cada columna dentro de un elemento <colgroup>.
-* <colgroup>: Grupo de columnas en una tabla.
-* <tbody>: Agrupa el contendio del cuerpo de la tabla. Se usa en conjunto con <thead> y <tfoot>.
-* <thead>: Conjunto de filas que definen el encabezado de la tabla.
-* <tfoot>: Conjunto de filas que resumen la columna de la tabla.
-* <td>: Define celdas de datos en filas. Va dentro de un <tr>.
-* <tr>: Contiene uno o mas elementos <th> o <td>.
-* <th>: Define celdas de encabezado, tiene scope, que define filas o columnas.
-* <dl>: Descripcion de la lista
-* <dt>: Nombre de la tabla
-* <dd>: Valor de la tabla
-* <q>: Define una breve cita
-* <bloquote>: Se usa para citar de otra fuente.
-* <p>: Etiqueta de parrafo.
-* <a>: ancla. Permite generar enlaces a otras partes del citio web o enlaces externos.
-* <img>: Etiqueta para insertar imagenes.
-* <h1> - <h6>: Etiqueta de titulos, siento <h1> el de mayor valor.
-* <small>: Apariencia de texto reducida.
-* <strong>: Negrita
-* <b>: Negrita
-* <hr>: separador horizontal.
-* <figure>: Contexto semantico para imagenes.
-* <action>: Es el atributo principal de un formulario. Es la ruta a donde se va a enviar la informacion.
-* <input>: Entrada de tados. Esta puede ser:
+Tags more used:
+* `<!DOCTYPE html>`: Tipo de documento que se muestra. Puede ser HTML o XML
+* `<html>`: Envuelve todo el documento
+* `<head>`: Cabecera del documento. Contiene sub etquietas.
+* `<meta>`: Documentar metadatos que no se pueden representar con etiquetas. Contienen la informacion respecto a la descripcion de la pagina.
+* `<body>`: El cuerpo de la estructura HTML.
+* `<header>`: Navegacion o elementos introductorios para la seccion actual.
+* `<nav>`: Enlaces de navegacion.
+* `<article>`: Seccion del contenido de la pagina.
+* `<section>`: Contiene elementos agrupados por tema.
+* `<aside>`:Solo esta relacionado con el contenido principal.
+* `<footer>`:Pie de pagina.
+* `<ol>`: Lista ordenada.
+* `<ul>`: Lista desordenada.
+* `<li>`: Valor de las listas, tanto ordenadas como desordenadas.
+* `<table>`: Tabla de contenidos.
+* `<caption>`: Titulo de la tabla.
+* `<col>`: Propiedad para cada columna dentro de un elemento `<colgroup>`.
+* `<colgroup>`: Grupo de columnas en una tabla.
+* `<tbody>`: Agrupa el contendio del cuerpo de la tabla. Se usa en conjunto con `<thead>` y `<tfoot>`.
+* `<thead>`: Conjunto de filas que definen el encabezado de la tabla.
+* `<tfoot>`: Conjunto de filas que resumen la columna de la tabla.
+* `<td>`: Define celdas de datos en filas. Va dentro de un `<tr>`.
+* `<tr>`: Contiene uno o mas elementos `<th>` o `<td>`.
+* `<th>`: Define celdas de encabezado, tiene scope, que define filas o columnas.
+* `<dl>`: Descripcion de la lista
+* `<dt>`: Nombre de la tabla
+* `<dd>`: Valor de la tabla
+* `<q>`: Define una breve cita
+* `<bloquote>`: Se usa para citar de otra fuente.
+* `<p>`: Etiqueta de parrafo.
+* `<a>`: ancla. Permite generar enlaces a otras partes del citio web o enlaces externos.
+* `<img>`: Etiqueta para insertar imagenes.
+* `<h1> - <h6>`: Etiqueta de titulos, siento `<h1>` el de mayor valor.
+* `<small>`: Apariencia de texto reducida.
+* `<strong>`: Negrita
+* `<b>`: Negrita
+* `<hr>`: separador horizontal.
+* `<figure>`: Contexto semantico para imagenes.
+* `<action>`: Es el atributo principal de un formulario. Es la ruta a donde se va a enviar la informacion.
+* `<input>`: Entrada de tados. Esta puede ser:
     1. button
     2. checkbox
     3. color
@@ -72,10 +72,10 @@ Tags more used:`
     19. time
     21. url
     22. week
-* <label>: Titulo para la etiqueta <input>
-* <button>: boton
-* <div>: Etiqueta sin valor semantico. Agrupa elementos en bloque.
-* <spam>: Etiqueta sin valor semantico. Agrupa contendios en una linea.`
+* `<label>`: Titulo para la etiqueta `<input>`
+* `<button>`: boton
+* `<div>`: Etiqueta sin valor semantico. Agrupa elementos en bloque.
+* `<spam>`: Etiqueta sin valor semantico. Agrupa contendios en una linea.`
 
 
 Los ejercicios realizados en este repositorio fueron los siguientes:
