@@ -17,8 +17,8 @@
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
-    --section-header-align: "center";
-    --section-tagline-transform: "uppercase";
+    --section-header-align: center;
+    --section-tagline-transform: uppercase;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
     --section-padding: 5rem 0;
@@ -31,7 +31,7 @@
 
 *, *:before, *:after {
     box-sizing: border-box;
-  }
+}
 
 html {
     scroll-behavior: smooth;
@@ -113,6 +113,10 @@ a:active {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.footer {
+    padding: var(--footer-padding);
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
