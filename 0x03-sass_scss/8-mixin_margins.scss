@@ -3,3 +3,11 @@
 Margin left and right at 10px to body tags
 Margin left and right at 15px to div tags
 You must use a mixin */
+
+@mixin body {
+    margin: 0 10px;
+}
+
+@mixin div {
+    margin: 0 15px;
+}
