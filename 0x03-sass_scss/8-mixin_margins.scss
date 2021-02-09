@@ -10,9 +10,9 @@ You must use a mixin */
 }
 
 body {
-    @include margin(10px)
+    @include margin(10px);
 }
 
 div {
-    @include margin(15px)
+    @include margin(15px);
 }
