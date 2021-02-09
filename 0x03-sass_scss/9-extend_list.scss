@@ -3,3 +3,26 @@
 Font size 12px to all tags of class .info
 Text color #00FF00 to all tags of class .success and extend style of the class .info
 Text color #FF0000 to all tags of class .warning and extend style of the class .info */
+%font-size-info {
+    font-size: 12px;
+}
+
+%color-class-success {
+    color: #00FF00;
+}
+
+%color-class-warning {
+    color: #FF0000;
+}
+
+.info, .success, .warning {
+    @extend %font-size-info;
+}
+
+.success {
+    @extend %color-class-success;
+}
+
+.warning {
+    @extend %color-class-warning;
+}
