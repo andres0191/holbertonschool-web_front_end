@@ -6,3 +6,11 @@ col-4 with width equals to 25%
 You must create .col-* class from 1 to 4
 You must use a @for statement */
 
+@import '/103-sort_list.scss';
+
+$sort-order: a b c d e f g h i j k l m n o p q r s t u v w x y z !default;
+
+
+@function compare($i, $j, $order, $default-list) {
+    
+}
