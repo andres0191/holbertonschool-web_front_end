@@ -155,6 +155,15 @@ a:active {
     transition-property: color, background-color;
 }
 
+.button-primary {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+}
+
+.button-primary:hover {
+    color: var(--color-primary);
+    background-color: var(--color-white);
+}
   /* Helpers
             ============================= */
 
@@ -779,7 +788,7 @@ input:not(:placeholder-shown) ~ .form-field-icon::after {
     width: 1.3em;
 }
 
-/* Because inputs are invalid by default, we need to be careful and show the icon when we are not in focus and when when the input is not empty (placeholder-shown). Careful with this one because it is not supported everywhere. */
+  /* Because inputs are invalid by default, we need to be careful and show the icon when we are not in focus and when when the input is not empty (placeholder-shown). Careful with this one because it is not supported everywhere. */
 
 input:required:invalid:not(:focus):not(:placeholder-shown) ~ .form-field-icon::after {
     content: '✘';
