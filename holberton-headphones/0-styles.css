@@ -1,0 +1,205 @@
+:root {
+    --color-primary: #D73953;
+    --button-color: #FF6565;
+    --text-color: #FFFFFF;
+    --font-family: Source Sans Pro;
+  }
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+      font-family: var(--font-family);
+      color: var(--text-color);
+}
+
+.container {
+      background-image: url(./images/images/headphones_hero_1.jpg);
+      background-position: center;
+      background-size: cover;
+      min-height: 100rem;
+      justify-content: center;
+      color: var(--text-color-light);
+      text-align: center;
+}
+
+.container .header-logo a{
+    float: left;
+    padding-top: 2rem;
+    margin: 2rem;
+    margin-left: 30rem;
+}
+
+.navbar-menu .nav{
+    float: right;
+    padding-top: 2rem;
+    margin: 2rem;
+    margin-right: 20rem;
+    list-style: none;
+    white-space: nowrap;
+
+}
+
+.navbar-menu .nav .nav-item{
+    display:inline;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.9rem;
+    line-height: 1.5rem;
+}
+
+.nav .nav-item .nav-link{
+    padding-right: 5rem;
+    margin: 2.1rem;
+    top: 3.7rem;
+    width: 2.55rem;
+    height: 1.5rem;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.nav .nav-item .nav-link:hover {
+    color: var(--color-primary);
+}
+
+.hero {
+    text-align: center;
+    padding-top:40rem;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.hero h1{
+    font-family: var(--font-family);
+    font-size:5rem;
+}
+
+.hero span {
+    display: block;
+    font-family: var(--font-family);
+    font-size: 2rem;
+    margin-top: 0.2rem;
+    margin-bottom: .7rem;
+}
+
+.hero .button {
+    color: var(--text-color);
+    font-family: var(--font-family);
+    background: var(--button-color);
+    width: 16rem;
+    height: 4.4rem;
+    border-radius: 2.2rem;
+    text-transform: uppercase;
+    border-style: none;
+    margin: 4rem;
+}
+
+.hero .button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.Paragraph{
+    font-size: 1.5rem;
+    font-family: var(--text-color);
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    width: 55rem;
+    margin-top: 6.5rem;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.menu-icon {
+    display:none;
+}
+
+@media only screen and (max-width:880px) {
+    .menu-icon {
+        display: block;
+        margin-right: 60rem;
+        z-index: -1;
+    }
+
+    .navbar-menu{
+      display: none;
+    }
+
+
+    .menu-btn:checked ~ .navbar-menu{
+        display: inline-block;
+        float: none;
+    }
+
+    .navbar-menu .nav {
+        top: 50%;
+        left: 1rem;
+        margin: 2rem 0 -30rem 5rem;
+    }
+
+    .navbar-menu .nav .nav-item {
+        display: block;
+        margin-bottom: 6rem;
+    }
+
+    .container .header-logo a{
+        position: relative;
+        left: -15%;
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width:662px){
+
+    *, *:before, *:after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        margin: auto;
+    }
+
+    .container {
+        background-size: 200% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .container .header-logo a{
+        left: 1rem;
+        margin: 0rem 0 0rem 5rem;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .navbar-menu .nav {
+        top: 50%;
+        left: 1rem;
+        margin: 2rem 10rem -30rem 0rem;
+    }
+
+    .hero span {
+        font-size: 1rem;
+    }
+
+    .Paragraph {
+        font-size: rem;
+        width: 30rem;
+    }
+}
