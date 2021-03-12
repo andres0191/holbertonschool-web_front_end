@@ -7,61 +7,68 @@
     --font-family: Source Sans Pro;
     --icons-color: var(--button-color);
     --font-size-icons: 130px;
-}
-
-*, *:before, *:after {
+  
+  }
+  
+  
+  *, *:before, *:after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-html {
+    }
+    
+    html {
     scroll-behavior: smooth;
     font-size: 62.5%;
-}
+    }
+    
+    body {
+        font-family: var(--font-family);
 
-body {
-    font-family: var(--font-family);
-
-}
-
-.container {
-      background-image: url(./images/images/headphones_hero_1.jpg);
+    }
+  
+  .container {
+      background-image: url(images/headphones_hero_1.jpg);
       background-position: center;
       background-size: cover;
       min-height: 100rem;
       justify-content: center;
       color: var(--text-color-light);
       text-align: center;
-}
-
-.container .header-logo a{
+  }
+  
+  .container .header-logo a{
     float: left;
     padding-top: 2rem;
     margin: 2rem;
     margin-left: 30rem;
-
-}
-
-.navbar-menu .nav{
+  
+  }
+  
+  .navbar-menu .nav{
     float: right;
     padding-top: 2rem;
     margin: 2rem;
     margin-right: 20rem;
     list-style: none;
     white-space: nowrap;
-}
-
-.navbar-menu .nav .nav-item{
+    
+  
+  } 
+  
+  
+  .navbar-menu .nav .nav-item{
     display:inline; 
     font-family: var(--font-family);
     font-style: normal;
     font-weight: bold;
     font-size: 1.9rem;
     line-height: 1.5rem;
-}
-
-.nav .nav-item .nav-link{
+    
+  }
+  
+  
+  .nav .nav-item .nav-link{
     padding-right: 5rem;
     margin: 2.1rem;
     top: 3.7rem;
@@ -69,33 +76,33 @@ body {
     height: 1.5rem;
     text-decoration: none;
     color: var(--text-color);
-}
-
-.nav .nav-item .nav-link:hover {
+  }
+  
+  .nav .nav-item .nav-link:hover {
     color: var(--color-primary);
-}
-
-.hero {
+  }
+  
+  .hero {
     text-align: center;
     padding-top:40rem;
     color: var(--text-color);
     text-decoration: none;
-
-}
-
-.hero h1{
+  
+  }
+  
+  .hero h1{
     font-family: var(--font-family);
     font-size:5rem;
-}
-
-.hero span {
+  }
+  
+  .hero span {
     display: block;
     font-family: var(--font-family);
     font-size: 2rem;
     margin-top: 0.2rem;
     margin-bottom: .7rem;
-}
-
+  }
+  
 .button {
     color: var(--text-color);
     font-size: 1.5rem;
@@ -107,14 +114,15 @@ body {
     text-transform: uppercase;
     border-style: none;
     margin: 4rem;
-}
-
+    
+  }
+  
 .button:hover {
     cursor: pointer;
     opacity: 0.9;
-}
-
-.Paragraph{
+  }
+  
+  .Paragraph{
     font-size: 1.5rem;
     font-family: var(--text-color);
     margin-left:auto;
@@ -122,17 +130,17 @@ body {
     text-align:center;
     width: 55rem;
     margin-top: 6.5rem;
-}
-
-.menu-btn {
+  }
+  
+  .menu-btn {
     display: none;
-}
-
-.menu-icon {
+  }
+  
+  .menu-icon {
     display:none;
-}
+  }
 
-.section-one {
+  .section-one {
     text-align: center;
     color: var(--section-one-color);
 }
@@ -186,7 +194,7 @@ body {
 
 
 .section-two {
-    background-image: url(./images/images/headphones_hero_2.jpg);
+    background-image: url(images/headphones_hero_2.jpg);
     background-size: 100% 100%;
     background-position: center;
     min-height: 65rem;
@@ -257,107 +265,117 @@ body {
 input[type] {
     border: none;
     border-bottom: 1px solid rgb(180, 168, 168);
-}
-
+  }
 .input-user::placeholder{
     font-family:var(--font-family) ;
     color: #071629;
 }
 
-
-@media only screen and (max-width:880px) {
+  
+  @media only screen and (max-width:880px) {
     .menu-icon {
-        display: block;
-        margin-right: 60rem;
-        z-index: -1;
+      display: block;
+      margin-right: 60rem;
+      z-index: -1;
+    
     }
-
+    
+    
     .navbar-menu{
-        display: none;
+      display: none;
     }
-
+  
+  
     .menu-btn:checked ~ .navbar-menu{
-        display: inline-block;
-        float: none;
+  
+      display: inline-block;
+      float: none;
     }
-
     .navbar-menu .nav {
-        top: 50%;
-        left: 1rem;
-        margin: 2rem 0 -30rem 5rem;
+      top: 50%;
+      left: 1rem;
+      margin: 2rem 0 -30rem 5rem;
     }
-
+    
     .navbar-menu .nav .nav-item {
-        display: block;
-        margin-bottom: 6rem;
+      display: block;
+      margin-bottom: 6rem;
     }
 
     .container .header-logo a{
-        position: relative;
-        left: -15%;
-        width: 50%;
-    }
+      position: relative;
+      left: -15%;
+      width: 50%;
+  }
 
   .icons {
-        flex-flow: wrap;
-    }
+    flex-flow: wrap;
+  }
+.footer-logo {
+    padding-left: 5rem;
+}
 
-    .footer-logo {
-        padding-left: 5rem;
-    }
-
-    .col-1-2 {
-        margin: 0 0 3rem 0;
-        width: 100%;
-        margin-top: -5rem;
-        padding-left: 18rem;
-    }
+.col-1-2 {
+    margin: 0 0 3rem 0;
+    width: 100%;
+    margin-top: -5rem;
+    padding-left: 18rem;
+  }
 }
 
 @media only screen and (max-width:662px){
-        *, *:before, *:after {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-
+  
+    *, *:before, *:after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      }
+    
+    
     body{
-        margin: auto;
+      margin: auto;
     }
-
+  
+  
+  
     .container {
-        background-size: 200% 100%;
-        background-repeat: no-repeat;
+      background-size: 200% 100%;
+      background-repeat: no-repeat;
     }
-
+  
     .container .header-logo a{
-        left: 1rem;
-        margin: 0rem 0 0rem 5rem;
+      left: 1rem;
+      margin: 0rem 0 0rem 5rem;
+    
     }
-
+  
     .hero h1 {
-        font-size: 2rem;
+      font-size: 2rem;
+  
     }
-
+  
+  
     .navbar-menu .nav {
-        top: 50%;
-        left: 1rem;
-        margin: 2rem 10rem -30rem 0rem;
+      top: 50%;
+      left: 1rem;
+      margin: 2rem 10rem -30rem 0rem;
     }
-
+  
+  
     .hero span {
-        font-size: 1rem;
+      font-size: 1rem;
     }
-
+  
     .Paragraph {
-        font-size: rem;
-        width: 30rem;
+      font-size: rem;
+      width: 30rem;
     }
 
     .icons {
         display: inline;
     }
-}
+  }
+  
 .footer {
     background-color: #071629;
     height: 26.9rem;
