@@ -73,4 +73,4 @@ You won’t have a lot of instruction, you are free to implement it the way that
 
 Here the final result:
 
-![final result](https://github.com/andres0191/holbertonschool-web_front_end/blob/master/holberton-headphones/images/images/60df485eb772ecbad54a.jpg "Optional title")
+![final result](https://raw.githubusercontent.com/andres0191/holbertonschool-web_front_end/master/holberton-headphones/images/images/60df485eb772ecbad54a.jpg)
