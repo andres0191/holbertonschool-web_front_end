@@ -73,4 +73,4 @@ You won’t have a lot of instruction, you are free to implement it the way that
 
 Here the final result:
 
-![final result](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/2/60df485eb772ecbad54a.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUWMNL5ANN%2F20210312%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20210312T025638Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=81b18f1d4c08d2197d9432aad434cb17db387704f9841be1dad2b90f5b36073f "Optional title")
+![final result](https://github.com/andres0191/holbertonschool-web_front_end/blob/master/holberton-headphones/images/images/60df485eb772ecbad54a.jpg "Optional title")
