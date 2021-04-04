@@ -1,4 +1,4 @@
-function countPrimeNumbers() {
+const countPrimeNumbers = () =>{
   let count = 0;
   for (let i = 2; i <= 100; i++) {
     let isprime = false;
@@ -7,13 +7,9 @@ function countPrimeNumbers() {
         isprime = false;
         break;
       }
-    }
-
-    if (isprime) {
-      ++count;
-    }
+    } if (isprime)
+        ++count;
   }
-
   return count;
 }
 
