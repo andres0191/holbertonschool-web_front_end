@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script>
-        function setCookies(e) {
+        const setCookies = (e) => {
             const firstName = document.getElementById('firstname').value;
             const email = document.getElementById('email').value;
             // Date of expiration
@@ -17,26 +17,26 @@
             document.cookie = cookie;
         }
 
-            function showCookies(e) {
-                const p = document.createElement('p');
-                const decodeCookie = decodeURIComponent(document.cookie);
-                const allCookie = decodeCookie.split(';');
-                let cookies = '<strong>Cookies:</strong>';
+        const showCookies = (e) => {
+            const p = document.createElement('p');
+            const decodeCookie = decodeURIComponent(document.cookie);
+            const allCookie = decodeCookie.split(';');
+            let cookies = '<strong>Cookies:</strong>';
 
-                for (let i = 0; i < (allCookie.length); ++i)
-                    cookies += `"${allCookie[i]}"`;
+            for (let i = 0; i < (allCookie.length); ++i)
+                cookies += `"${allCookie[i]}"`;
 
-                p.innerHTML = cookies;
-                document.querySelector('main').append(p);
-            }
+            p.innerHTML = cookies;
+            document.querySelector('main').append(p);
+        }
 
-            document.addEventListener("DOMContentLoaded", function(event) {
-                const addforme = document.getElementById('log');
-                const addbtne = document.getElementById('btn-show-cook');
+        document.addEventListener("DOMContentLoaded", function(event) {
+            const addforme = document.getElementById('log');
+            const addbtne = document.getElementById('btn-show-cook');
 
-                addforme.addEventListener('submit', setCookies);
-                addbtne.addEventListener('click', showCookies);
-            })
+            addforme.addEventListener('submit', setCookies);
+            addbtne.addEventListener('click', showCookies);
+        })
     </script>
     <title>Task 0</title>
 </head>

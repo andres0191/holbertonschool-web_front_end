@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        const getCartFromStorage = () => {
+            return items = JSON.parse((sessionStorage.getItem('cart')));
+        }
+
+        const addItemToCart = (item) => {
+            localStorage.setItem(item, "true");
+        }
+
+        const createStore = () => {
+            let list = document.createElement('ul');
+            const availableItems = ['Shampoo', 'Soap', 'Sponge', 'Water'];
+
+            for (x in availableItems)
+                list.innerHTML += `<li class="item">${availableItems[x]}</li>`;
+            document.querySelector('main').append(list);
+
+            const ul = document.querySelectorAll('.item');
+            for (let i = 0; i < ul.length; ++i) {
+                ul[i].addEventListener('click', (e) => {
+                    e.preventDefault();
+                    addItemToCart(ul[i].textContent);
+                });
+            }
+        }
+
+        const countItems = () => {
+            let count = 0;
+            const availableItems = ['Shampoo', 'Soap', 'Sponge', 'Water'];
+
+            for (let i = 0; i < sessionStorage.length; ++i) {
+                let key = sessionStorage.key(i);
+                if (key) {
+                    for (let x of availableItems) {
+                        if (key == x) {
+                            let item = sessionStorage.getItem(key);
+                            if (item !== null)
+                                count++;
+                        }
+                    }
+                }
+            }
+            return count;
+        }
+
+        const displayCart = () => {
+            let count = 0;
+
+            for (x in localStorage) {
+                if ((localStorage.getItem(x)))
+                    ++count;
+            }
+
+            let msg = document.createElement('p');
+            msg.innerHTML = `You previously had ${count} items in your cart`;
+            document.body.append(msg);
+        }
+
+        document.addEventListener("DOMContentLoaded", function(event) {
+            if (typeof(localStorage) !== 'undefined') {
+                createStore();
+                displayCart();
+            } else
+                alert('Sorry, your browser does not support Web storage. Try again with a better one');
+        });
+    </script>
+    <title>Task 7</title>
+</head>
+<body>
+    <main></main>
+</body>
+</html>
