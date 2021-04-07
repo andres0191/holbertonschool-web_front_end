@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        const setCookies = (e) => {
+            const firstName = document.getElementById('firstname').value;
+            const email = document.getElementById('email').value;
+            // Date of expiration
+            let dateIn = new Date();
+            const days = 10;
+            dateIn.setTime(dateIn.getTime() + (days*24*60*60*1000));
+            const dateOut = `expires= ${dateIn.toUTCString()}`
+            const cookie = `${firstName} = ${email}; ${dateOut};path=/`;
+            document.cookie = cookie;
+        }
+
+        const showCookies = (e) => {
+                const p = document.createElement('p');
+                const decodeCookie = decodeURIComponent(document.cookie);
+                const allCookie = decodeCookie.split(';');
+                let cookies = '<strong>Cookies:</strong>';
+
+                for (let i = 0; i < (allCookie.length); i++)
+                    cookies += `"${allCookie[i]}"`;
+                p.innerHTML = cookies;
+                document.querySelector('main').append(p);
+            }
+
+            document.addEventListener("DOMContentLoaded", function(event) {
+                const logMeIn = document.getElementById('login').addEventListener('submit', setCookies);
+                const showTheCookies = document.getElementById('btn-show-cook').addEventListener('click', showCookies);
+            })
+    </script>
+    <title>Task 0</title>
+</head>
+<body>
+    <main>
+        <form id="login">
+            <h1>Login to the website</h1>
+            <input type="text" id="firstname" placeholder="First Name" required >
+            <input type="email" placeholder="Email" id="email" required>
+            <button onclick="setCookies">Log me in</button>
+            <h1>Cookies</h1>
+            <button id="btn-show-cook">Show the cookies</button>
+        </form>
+    </main>
+</body>
+</html>
